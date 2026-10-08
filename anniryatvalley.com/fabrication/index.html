@@ -1,0 +1,1946 @@
+<div id="anniryat-fabrication-page">
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap');
+
+#anniryat-fabrication-page{
+    --green:#173d2b;
+    --green2:#213f30;
+    --lime:#c8ed46;
+    --lime2:#b7eb31;
+    --cream:#f8f6f1;
+    --cream2:#eee9ed;
+    --dark:#302835;
+    --purple:#4b3d4e;
+    --muted:#625c60;
+    --line:#d9d0d7;
+    --white:#f8f6f1;
+
+    width:100%;
+    overflow:hidden;
+    background:var(--cream);
+    color:var(--dark);
+    font-family:DM Sans,sans-serif;
+}
+
+#anniryat-fabrication-page *{
+    box-sizing:border-box;
+}
+
+#anniryat-fabrication-page a{
+    text-decoration:none;
+}
+
+#anniryat-fabrication-page img{
+    max-width:100%;
+    height:auto;
+    display:block;
+}
+
+#anniryat-fabrication-page button,
+#anniryat-fabrication-page a{
+    -webkit-tap-highlight-color:transparent;
+}
+
+#anniryat-fabrication-page .site-wrap{
+    width:calc(100% - 72px);
+    max-width:1240px;
+    margin-inline:auto;
+}
+
+#anniryat-fabrication-page .skip{
+    z-index:99;
+    background:#d0f329;
+    padding:12px;
+    position:absolute;
+    top:8px;
+    left:-999px;
+}
+
+#anniryat-fabrication-page .skip:focus{
+    left:8px;
+}
+
+
+/* =========================================================
+   HEADER
+========================================================= */
+
+#anniryat-fabrication-page .header{
+    z-index:10;
+    background:#f5f3e9;
+    position:relative;
+}
+
+#anniryat-fabrication-page .topline{
+    color:#d8e1d0;
+    letter-spacing:.14em;
+    background:#153d2b;
+    justify-content:space-between;
+    align-items:center;
+    height:34px;
+    padding:0 max(36px,calc(50% - 620px));
+    font-size:9px;
+    font-weight:700;
+    display:flex;
+}
+
+#anniryat-fabrication-page .topline span:last-child{
+    align-items:center;
+    gap:8px;
+    display:flex;
+}
+
+#anniryat-fabrication-page .topline a{
+    color:#c8ed49;
+    letter-spacing:.04em;
+}
+
+#anniryat-fabrication-page .navline{
+    justify-content:space-between;
+    align-items:center;
+    height:84px;
+    display:flex;
+}
+
+#anniryat-fabrication-page .brand{
+    color:#193b2c;
+    align-items:center;
+    gap:10px;
+    text-decoration:none;
+    display:flex;
+}
+
+#anniryat-fabrication-page .brand img{
+    object-fit:contain;
+    mix-blend-mode:multiply;
+    width:54px;
+    height:54px;
+}
+
+#anniryat-fabrication-page .brand span{
+    gap:2px;
+    display:grid;
+}
+
+#anniryat-fabrication-page .brand b{
+    letter-spacing:.11em;
+    font-family:Manrope,sans-serif;
+    font-size:12px;
+}
+
+#anniryat-fabrication-page .brand small{
+    letter-spacing:.23em;
+    color:#737f70;
+    font-size:8px;
+}
+
+#anniryat-fabrication-page .navlinks{
+    align-items:center;
+    gap:35px;
+    display:flex;
+}
+
+#anniryat-fabrication-page .navlinks>a{
+    color:#344a3c;
+    font-size:12px;
+    font-weight:600;
+    text-decoration:none;
+    transition:color .2s;
+}
+
+#anniryat-fabrication-page .navlinks>a:hover,
+#anniryat-fabrication-page .navlinks>a.active{
+    color:#5a7d24;
+}
+
+#anniryat-fabrication-page .navlinks .nav-cta{
+    color:#f5f3e9;
+    background:#173d2b;
+    align-items:center;
+    gap:9px;
+    padding:13px 17px;
+    display:flex;
+}
+
+#anniryat-fabrication-page .navlinks .nav-cta:hover{
+    color:#f5f3e9!important;
+    background:#285a39!important;
+}
+
+#anniryat-fabrication-page .menu-toggle{
+    color:#193b2c;
+    background:transparent;
+    border:0;
+    display:none;
+    cursor:pointer;
+}
+
+
+/* =========================================================
+   FABRICATION PAGE
+========================================================= */
+
+#anniryat-fabrication-page .fabrication-page{
+    background:#f8f6f1;
+    overflow:hidden;
+}
+
+
+/* =========================================================
+   HERO
+========================================================= */
+
+#anniryat-fabrication-page .fabrication-hero{
+    grid-template-columns:1.04fr .96fr;
+    align-items:center;
+    gap:clamp(38px,7vw,100px);
+    padding-top:76px;
+    padding-bottom:84px;
+    display:grid;
+}
+
+#anniryat-fabrication-page .fabrication-hero-copy .eyebrow{
+    color:#655566;
+}
+
+#anniryat-fabrication-page .eyebrow{
+    color:#617749;
+    letter-spacing:.18em;
+    text-transform:uppercase;
+    align-items:center;
+    gap:10px;
+    font-size:9px;
+    font-weight:700;
+    display:flex;
+}
+
+#anniryat-fabrication-page .eyebrow>span{
+    background:#9acb23;
+    width:22px;
+    height:1px;
+    display:block;
+}
+
+#anniryat-fabrication-page .fabrication-overline{
+    color:#7b6b79;
+    letter-spacing:.2em;
+    margin:39px 0 13px;
+    font-size:9px;
+    font-weight:700;
+}
+
+#anniryat-fabrication-page .fabrication-hero h1{
+    color:#302835;
+    letter-spacing:-.05em;
+    margin:0;
+    font-family:"Playfair Display",Georgia,serif;
+    font-size:clamp(54px,6.5vw,88px);
+    font-weight:500;
+    line-height:.99;
+}
+
+#anniryat-fabrication-page .fabrication-hero h1 em,
+#anniryat-fabrication-page .fabrication-section-head h2 em,
+#anniryat-fabrication-page .fabrication-contact h2 em{
+    color:#89923f;
+    font-weight:500;
+}
+
+#anniryat-fabrication-page .fabrication-lead{
+    color:#625c60;
+    max-width:490px;
+    margin:24px 0 0;
+    font-size:14px;
+    line-height:1.85;
+}
+
+#anniryat-fabrication-page .fabrication-hero-actions{
+    flex-wrap:wrap;
+    align-items:center;
+    gap:20px;
+    margin-top:28px;
+    display:flex;
+}
+
+#anniryat-fabrication-page .button{
+    cursor:pointer;
+    border:0;
+    justify-content:center;
+    align-items:center;
+    gap:14px;
+    padding:16px 21px;
+    font-size:12px;
+    font-weight:700;
+    text-decoration:none;
+    transition:background .2s,transform .2s;
+    display:inline-flex;
+}
+
+#anniryat-fabrication-page .button-dark{
+    color:#f8f6f1;
+    background:#302835;
+}
+
+#anniryat-fabrication-page .button-dark:hover{
+    color:#fff;
+    background:#173d2b;
+    transform:translateY(-2px);
+}
+
+#anniryat-fabrication-page .fabrication-site-link,
+#anniryat-fabrication-page .fabrication-contact-details a{
+    color:#4b3d4e;
+    align-items:center;
+    gap:7px;
+    font-size:12px;
+    font-weight:700;
+    text-decoration:none;
+    display:inline-flex;
+}
+
+#anniryat-fabrication-page .fabrication-site-link:hover,
+#anniryat-fabrication-page .fabrication-contact-details a:hover{
+    color:#7f8640;
+}
+
+#anniryat-fabrication-page .fabrication-location{
+    color:#7d7479;
+    letter-spacing:.16em;
+    margin-top:36px;
+    font-size:9px;
+    font-weight:700;
+    display:block;
+}
+
+#anniryat-fabrication-page .fabrication-poster-frame{
+    background:#fff;
+    margin:0;
+    padding:12px;
+    transform:rotate(1deg);
+    box-shadow:0 22px 70px rgba(53,43,56,.11);
+}
+
+#anniryat-fabrication-page .fabrication-poster-frame img{
+    width:100%;
+    height:auto;
+    display:block;
+}
+
+#anniryat-fabrication-page .fabrication-poster-frame figcaption{
+    color:#625866;
+    letter-spacing:.17em;
+    padding:13px 4px 2px;
+    font-size:8px;
+    font-weight:700;
+}
+
+
+/* =========================================================
+   SERVICES
+========================================================= */
+
+#anniryat-fabrication-page .fabrication-services{
+    background:#eee9ed;
+    border-block:1px solid #e2dbe1;
+    padding:100px 0;
+}
+
+#anniryat-fabrication-page .fabrication-section-head{
+    grid-template-columns:1fr .63fr;
+    align-items:end;
+    gap:70px;
+    margin-bottom:40px;
+    display:grid;
+}
+
+#anniryat-fabrication-page .fabrication-section-head h2,
+#anniryat-fabrication-page .fabrication-contact h2{
+    color:#302835;
+    letter-spacing:-.045em;
+    margin:18px 0 0;
+    font-family:"Playfair Display",Georgia,serif;
+    font-size:clamp(37px,4.8vw,58px);
+    font-weight:500;
+    line-height:1.08;
+}
+
+#anniryat-fabrication-page .fabrication-section-head>p{
+    color:#645c63;
+    max-width:420px;
+    margin:0 0 5px;
+    font-size:13px;
+    line-height:1.8;
+}
+
+#anniryat-fabrication-page .fabrication-service-grid{
+    background:#d9d0d7;
+    border:1px solid #d9d0d7;
+    grid-template-columns:repeat(4,minmax(0,1fr));
+    gap:1px;
+    display:grid;
+}
+
+#anniryat-fabrication-page .fabrication-service{
+    background:#f8f6f1;
+    min-height:174px;
+    padding:24px 22px;
+    transition:background .25s,transform .25s;
+    position:relative;
+}
+
+#anniryat-fabrication-page .fabrication-service:hover{
+    z-index:1;
+    background:#fff;
+    transform:translateY(-3px);
+}
+
+#anniryat-fabrication-page .fabrication-service>span{
+    color:#8b8443;
+    letter-spacing:.12em;
+    font-size:9px;
+    font-weight:700;
+}
+
+#anniryat-fabrication-page .fabrication-service h3{
+    color:#342c37;
+    max-width:190px;
+    margin:29px 0 0;
+    font-family:"Playfair Display",Georgia,serif;
+    font-size:18px;
+    font-weight:500;
+    line-height:1.3;
+}
+
+#anniryat-fabrication-page .fabrication-service i{
+    color:#7c6d7e;
+    font-size:15px;
+    font-style:normal;
+    position:absolute;
+    bottom:20px;
+    right:20px;
+}
+
+
+/* =========================================================
+   CONTACT
+========================================================= */
+
+#anniryat-fabrication-page .fabrication-contact{
+    color:#f8f6f1;
+    background:#302936;
+    padding:92px 0;
+}
+
+#anniryat-fabrication-page .fabrication-contact-inner{
+    grid-template-columns:1fr .78fr;
+    align-items:start;
+    gap:clamp(45px,8vw,120px);
+    display:grid;
+}
+
+#anniryat-fabrication-page .fabrication-contact .eyebrow{
+    color:#e1d6e0;
+}
+
+#anniryat-fabrication-page .fabrication-contact h2{
+    color:#f8f6f1;
+}
+
+#anniryat-fabrication-page .fabrication-contact h2 em{
+    color:#c8ed46;
+}
+
+#anniryat-fabrication-page .fabrication-contact-intro>p{
+    color:#d3ccd3;
+    max-width:420px;
+    margin:21px 0 27px;
+    font-size:13px;
+    line-height:1.8;
+}
+
+#anniryat-fabrication-page .button-lime{
+    color:#302936;
+    background:#c8ed46;
+}
+
+#anniryat-fabrication-page .button-lime:hover{
+    background:#d7f76b;
+    transform:translateY(-2px);
+}
+
+#anniryat-fabrication-page .fabrication-contact-details{
+    grid-template-columns:1fr 1fr;
+    gap:28px 32px;
+    padding-top:4px;
+    display:grid;
+}
+
+#anniryat-fabrication-page .fabrication-contact-details>div{
+    border-top:1px solid rgba(255,255,255,.21);
+    flex-direction:column;
+    align-items:flex-start;
+    gap:10px;
+    padding-top:16px;
+    display:flex;
+}
+
+#anniryat-fabrication-page .fabrication-contact-details>div>span{
+    color:#c8ed46;
+    letter-spacing:.17em;
+    font-size:8px;
+    font-weight:700;
+}
+
+#anniryat-fabrication-page .fabrication-contact-details a{
+    color:#f8f6f1;
+    overflow-wrap:anywhere;
+    font-size:11px;
+    line-height:1.6;
+}
+
+#anniryat-fabrication-page .fabrication-contact-details p{
+    color:#e0d9df;
+    margin:0;
+    font-size:11px;
+    line-height:1.7;
+}
+
+
+/* =========================================================
+   FOOTER
+========================================================= */
+
+#anniryat-fabrication-page .footer{
+    color:#e8eddf;
+    background:#102d21;
+    padding:62px 0 20px;
+}
+
+#anniryat-fabrication-page .footer-top{
+    grid-template-columns:1.4fr .7fr 1fr;
+    gap:70px;
+    padding-bottom:51px;
+    display:grid;
+}
+
+#anniryat-fabrication-page .footer-brand{
+    color:#f2f3e8;
+}
+
+#anniryat-fabrication-page .footer-brand img{
+    background:#f5f3e9;
+}
+
+#anniryat-fabrication-page .footer-brand small{
+    color:#a0b098;
+}
+
+#anniryat-fabrication-page .footer-top>div:first-child>p{
+    color:#b4c1ae;
+    max-width:305px;
+    margin-top:18px;
+    font-size:12px;
+    line-height:1.7;
+}
+
+#anniryat-fabrication-page .footer-nav,
+#anniryat-fabrication-page .footer-contact{
+    flex-direction:column;
+    gap:13px;
+    font-size:11px;
+    display:flex;
+}
+
+#anniryat-fabrication-page .footer-nav b,
+#anniryat-fabrication-page .footer-contact>b{
+    color:#c8ed46;
+    letter-spacing:.12em;
+    text-transform:uppercase;
+    margin-bottom:3px;
+    font-size:10px;
+}
+
+#anniryat-fabrication-page .footer-nav a,
+#anniryat-fabrication-page .footer-contact a{
+    color:#d8e2d3;
+    text-decoration:none;
+}
+
+#anniryat-fabrication-page .footer-nav a:hover,
+#anniryat-fabrication-page .footer-contact a:hover{
+    color:#c8ed46;
+}
+
+#anniryat-fabrication-page .footer-contact span{
+    color:#a6b3a1;
+}
+
+#anniryat-fabrication-page .footer-bottom{
+    color:#9eae9b;
+    letter-spacing:.04em;
+    border-top:1px solid rgba(255,255,255,.17);
+    justify-content:space-between;
+    padding-top:17px;
+    font-size:9px;
+    display:flex;
+}
+
+#anniryat-fabrication-page .footer-bottom a{
+    color:#d1e982;
+    text-decoration:none;
+}
+
+
+/* =========================================================
+   ANIMATION
+========================================================= */
+
+#anniryat-fabrication-page .fabrication-hero-copy{
+    animation:avRise .8s ease both;
+}
+
+#anniryat-fabrication-page .fabrication-poster-frame{
+    animation:avPoster .9s .15s ease both;
+}
+
+#anniryat-fabrication-page .fabrication-service{
+    animation:avRise .7s ease both;
+}
+
+@keyframes avRise{
+    from{
+        opacity:0;
+        transform:translateY(22px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+@keyframes avPoster{
+    from{
+        opacity:0;
+        transform:translateY(25px) rotate(4deg);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0) rotate(1deg);
+    }
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media(max-width:900px){
+
+    #anniryat-fabrication-page .navlinks{
+        gap:20px;
+    }
+
+    #anniryat-fabrication-page .navlinks>a{
+        font-size:11px;
+    }
+
+    #anniryat-fabrication-page .fabrication-hero{
+        grid-template-columns:1fr .9fr;
+        gap:34px;
+        padding-top:62px;
+    }
+
+    #anniryat-fabrication-page .fabrication-section-head{
+        gap:35px;
+    }
+
+    #anniryat-fabrication-page .fabrication-service-grid{
+        grid-template-columns:repeat(2,minmax(0,1fr));
+    }
+
+    #anniryat-fabrication-page .footer-top{
+        gap:45px;
+    }
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media(max-width:680px){
+
+    #anniryat-fabrication-page .site-wrap{
+        width:calc(100% - 40px);
+    }
+
+    #anniryat-fabrication-page .topline{
+        letter-spacing:.09em;
+        height:30px;
+        padding:0 20px;
+        font-size:7px;
+    }
+
+    #anniryat-fabrication-page .topline span:last-child{
+        gap:5px;
+    }
+
+    #anniryat-fabrication-page .topline span:last-child svg{
+        display:none;
+    }
+
+    #anniryat-fabrication-page .navline{
+        height:72px;
+    }
+
+    #anniryat-fabrication-page .brand img{
+        width:47px;
+        height:47px;
+    }
+
+    #anniryat-fabrication-page .brand b{
+        font-size:10px;
+    }
+
+    #anniryat-fabrication-page .brand small{
+        font-size:7px;
+    }
+
+    #anniryat-fabrication-page .menu-toggle{
+        place-items:center;
+        width:42px;
+        height:42px;
+        display:grid;
+    }
+
+    #anniryat-fabrication-page .navlinks{
+        background:#f5f3e9;
+        align-items:stretch;
+        gap:0;
+        padding:13px 20px 22px;
+        display:none;
+        position:absolute;
+        top:102px;
+        left:0;
+        right:0;
+        box-shadow:0 15px 25px rgba(24,53,39,.11);
+    }
+
+    #anniryat-fabrication-page .navlinks.is-open{
+        flex-direction:column;
+        display:flex;
+    }
+
+    #anniryat-fabrication-page .navlinks>a{
+        border-bottom:1px solid #dce0d4;
+        padding:14px 4px;
+        font-size:13px;
+    }
+
+    #anniryat-fabrication-page .navlinks .nav-cta{
+        border:0;
+        justify-content:center;
+        margin-top:13px;
+        padding:15px;
+    }
+
+    #anniryat-fabrication-page .fabrication-hero{
+        grid-template-columns:1fr;
+        gap:40px;
+        padding-top:56px;
+        padding-bottom:64px;
+    }
+
+    #anniryat-fabrication-page .fabrication-overline{
+        margin-top:31px;
+    }
+
+    #anniryat-fabrication-page .fabrication-hero h1{
+        font-size:clamp(54px,14vw,75px);
+    }
+
+    #anniryat-fabrication-page .fabrication-poster-frame{
+        justify-self:center;
+        width:min(100%,540px);
+        transform:none;
+    }
+
+    #anniryat-fabrication-page .fabrication-section-head,
+    #anniryat-fabrication-page .fabrication-contact-inner{
+        grid-template-columns:1fr;
+        gap:25px;
+    }
+
+    #anniryat-fabrication-page .fabrication-section-head{
+        margin-bottom:30px;
+    }
+
+    #anniryat-fabrication-page .fabrication-services{
+        padding-top:70px;
+        padding-bottom:70px;
+    }
+
+    #anniryat-fabrication-page .fabrication-contact{
+        padding:70px 0;
+    }
+
+    #anniryat-fabrication-page .footer{
+        padding-top:48px;
+    }
+
+    #anniryat-fabrication-page .footer-top{
+        grid-template-columns:1fr 1fr;
+        gap:37px 24px;
+    }
+
+    #anniryat-fabrication-page .footer-top>div:first-child{
+        grid-column:1/-1;
+    }
+
+    #anniryat-fabrication-page .footer-bottom{
+        flex-wrap:wrap;
+        gap:11px;
+    }
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media(max-width:420px){
+
+    #anniryat-fabrication-page .fabrication-service-grid,
+    #anniryat-fabrication-page .fabrication-contact-details{
+        grid-template-columns:1fr;
+    }
+
+    #anniryat-fabrication-page .fabrication-service{
+        min-height:145px;
+    }
+}
+
+@media(max-width:380px){
+
+    #anniryat-fabrication-page .topline{
+        font-size:6px;
+    }
+
+    #anniryat-fabrication-page .fabrication-hero h1{
+        font-size:51px;
+    }
+
+    #anniryat-fabrication-page .button{
+        padding:14px 16px;
+    }
+}
+
+@media(prefers-reduced-motion:reduce){
+
+    #anniryat-fabrication-page *,
+    #anniryat-fabrication-page *:before,
+    #anniryat-fabrication-page *:after{
+        scroll-behavior:auto!important;
+        transition-duration:.01ms!important;
+        animation-duration:.01ms!important;
+    }
+}
+
+</style>
+
+
+<!-- =========================================================
+     SKIP
+========================================================= -->
+
+<a class="skip" href="#av-main">
+    Skip to content
+</a>
+
+
+<!-- =========================================================
+     HEADER
+========================================================= -->
+
+<header class="header">
+
+    <div class="topline">
+
+        <span>
+            INDIAN AGRICULTURAL WHOLESALER &amp; EXPORTER
+        </span>
+
+        <span>
+
+            <svg xmlns="http://www.w3.org/2000/svg"
+                 width="13"
+                 height="13"
+                 viewBox="0 0 24 24"
+                 fill="none"
+                 stroke="currentColor"
+                 stroke-width="2"
+                 stroke-linecap="round"
+                 stroke-linejoin="round">
+
+                <path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719">
+                </path>
+
+            </svg>
+
+            WhatsApp
+
+            <a href="https://wa.me/918881805052">
+                +91 88818 05052
+            </a>
+
+        </span>
+
+    </div>
+
+
+    <div class="navline site-wrap">
+
+        <a
+            aria-label="Anniryat Valley home"
+            href="/"
+            class="brand">
+
+            <img
+                alt="Anniryat Valley emblem"
+                src="/assets/WhatsApp_Image_2026-10-04_at_10.51.58_AM_1791262753099-CenhDzXt.jpeg">
+
+            <span>
+
+                <b>
+                    ANNIRYAT VALLEY
+                </b>
+
+                <small>
+                    PRIVATE LIMITED
+                </small>
+
+            </span>
+
+        </a>
+
+
+        <nav
+            class="navlinks"
+            aria-label="Main navigation">
+
+            <a href="/about">
+                About
+            </a>
+
+            <a href="/products">
+                Products
+            </a>
+
+            <a href="/export">
+                Export &amp; supply
+            </a>
+
+            <a href="/fabrication" class="active">
+                Fabrication
+            </a>
+
+            <a href="/contact">
+                Contact
+            </a>
+
+            <a
+                href="/contact"
+                class="nav-cta">
+
+                Start an enquiry
+
+                <svg xmlns="http://www.w3.org/2000/svg"
+                     width="15"
+                     height="15"
+                     viewBox="0 0 24 24"
+                     fill="none"
+                     stroke="currentColor"
+                     stroke-width="2"
+                     stroke-linecap="round"
+                     stroke-linejoin="round">
+
+                    <path d="M7 7h10v10"></path>
+                    <path d="M7 17 17 7"></path>
+
+                </svg>
+
+            </a>
+
+        </nav>
+
+
+        <button
+            class="menu-toggle"
+            aria-label="Open menu"
+            aria-expanded="false">
+
+            <svg xmlns="http://www.w3.org/2000/svg"
+                 width="24"
+                 height="24"
+                 viewBox="0 0 24 24"
+                 fill="none"
+                 stroke="currentColor"
+                 stroke-width="2"
+                 stroke-linecap="round"
+                 stroke-linejoin="round">
+
+                <path d="M4 5h16"></path>
+                <path d="M4 12h16"></path>
+                <path d="M4 19h16"></path>
+
+            </svg>
+
+        </button>
+
+    </div>
+
+</header>
+
+
+<!-- =========================================================
+     MAIN
+========================================================= -->
+
+<main id="av-main" class="fabrication-page">
+
+
+    <!-- =====================================================
+         FABRICATION HERO
+    ====================================================== -->
+
+    <section class="fabrication-hero site-wrap">
+
+        <div class="fabrication-hero-copy">
+
+            <div class="eyebrow">
+
+                <span></span>
+
+                ANNIRYAT VALLEY FABRICATION
+
+            </div>
+
+
+            <p class="fabrication-overline">
+                EVENTS · EXHIBITIONS · BRAND EXPERIENCES
+            </p>
+
+
+            <h1>
+
+                Built to make
+                <br>
+
+                <em>
+                    an impression.
+                </em>
+
+            </h1>
+
+
+            <p class="fabrication-lead">
+
+                From exhibition booths and event setups to stage designs,
+                roadshows and product launches, Anniryat Valley Fabrication
+                helps bring your event vision to life.
+
+            </p>
+
+
+            <div class="fabrication-hero-actions">
+
+                <a
+                    class="button button-dark"
+                    href="tel:+917617518860">
+
+                    Call our team
+
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                         width="16"
+                         height="16"
+                         viewBox="0 0 24 24"
+                         fill="none"
+                         stroke="currentColor"
+                         stroke-width="2"
+                         stroke-linecap="round"
+                         stroke-linejoin="round">
+
+                        <path d="M7 7h10v10"></path>
+                        <path d="M7 17 17 7"></path>
+
+                    </svg>
+
+                </a>
+
+
+                  <a
+                    class="button button-dark"
+                    href="https://anniryatvalley.com/images/1.pdf">
+
+                   Catelog Download
+
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                         width="16"
+                         height="16"
+                         viewBox="0 0 24 24"
+                         fill="none"
+                         stroke="currentColor"
+                         stroke-width="2"
+                         stroke-linecap="round"
+                         stroke-linejoin="round">
+
+                        <path d="M7 7h10v10"></path>
+                        <path d="M7 17 17 7"></path>
+
+                    </svg>
+
+                </a>
+
+            </div>
+
+
+            <span class="fabrication-location">
+                PAHADWA COLONY · DELHI · 110074
+            </span>
+
+        </div>
+
+
+        <figure class="fabrication-poster-frame">
+
+            <img
+                alt="Anniryat Valley Fabrication flyer featuring event and exhibition booth designs, services, Delhi contact numbers and email"
+                src="/images/fabrication-poster.jpeg">
+
+            <figcaption>
+                ANNIRYAT VALLEY FABRICATION · EVENTS &amp; EXHIBITIONS
+            </figcaption>
+
+        </figure>
+
+    </section>
+
+
+    <!-- =====================================================
+         SERVICES
+    ====================================================== -->
+
+    <section class="fabrication-services">
+
+        <div class="site-wrap">
+
+            <div class="fabrication-section-head">
+
+                <div>
+
+                    <div class="eyebrow">
+
+                        <span></span>
+
+                        WHAT WE DO
+
+                    </div>
+
+
+                    <h2>
+
+                        Made for the moments
+                        <br>
+
+                        <em>
+                            people remember.
+                        </em>
+
+                    </h2>
+
+                </div>
+
+
+                <p>
+
+                    Explore fabrication and event services from Anniryat
+                    Valley Fabrication. Share your event, venue and
+                    requirements to discuss a design that fits.
+
+                </p>
+
+            </div>
+
+
+            <div class="fabrication-service-grid">
+
+
+                <article class="fabrication-service">
+
+                    <span>
+                        01
+                    </span>
+
+                    <h3>
+                        Event setup fabrication
+                    </h3>
+
+                    <i aria-hidden="true">
+                        ↗
+                    </i>
+
+                </article>
+
+
+                <article class="fabrication-service">
+
+                    <span>
+                        02
+                    </span>
+
+                    <h3>
+                        Exhibition system booths
+                    </h3>
+
+                    <i aria-hidden="true">
+                        ↗
+                    </i>
+
+                </article>
+
+
+                <article class="fabrication-service">
+
+                    <span>
+                        03
+                    </span>
+
+                    <h3>
+                        Stage design
+                    </h3>
+
+                    <i aria-hidden="true">
+                        ↗
+                    </i>
+
+                </article>
+
+
+                <article class="fabrication-service">
+
+                    <span>
+                        04
+                    </span>
+
+                    <h3>
+                        Gaming events
+                    </h3>
+
+                    <i aria-hidden="true">
+                        ↗
+                    </i>
+
+                </article>
+
+
+                <article class="fabrication-service">
+
+                    <span>
+                        05
+                    </span>
+
+                    <h3>
+                        Backdrops &amp; stage platforms
+                    </h3>
+
+                    <i aria-hidden="true">
+                        ↗
+                    </i>
+
+                </article>
+
+
+                <article class="fabrication-service">
+
+                    <span>
+                        06
+                    </span>
+
+                    <h3>
+                        Special exhibition booth designs
+                    </h3>
+
+                    <i aria-hidden="true">
+                        ↗
+                    </i>
+
+                </article>
+
+
+                <article class="fabrication-service">
+
+                    <span>
+                        07
+                    </span>
+
+                    <h3>
+                        Roadshows
+                    </h3>
+
+                    <i aria-hidden="true">
+                        ↗
+                    </i>
+
+                </article>
+
+
+                <article class="fabrication-service">
+
+                    <span>
+                        08
+                    </span>
+
+                    <h3>
+                        Product launches
+                    </h3>
+
+                    <i aria-hidden="true">
+                        ↗
+                    </i>
+
+                </article>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+<section class="av-fabrication-gallery">
+
+  <div class="av-fabrication-grid">
+
+    <!-- 01 -->
+    <div class="av-fabrication-item">
+      <img
+        src="https://5.imimg.com/data5/NP/UP/MY-52906817/fabrication-work.png"
+        alt="Fabrication work"
+        loading="lazy">
+    </div>
+
+    <!-- 02 -->
+    <div class="av-fabrication-item">
+      <img
+        src="https://cyclotronindustries.com/wp-content/uploads/elementor/thumbs/Fabrication-work-rhvenx2ywx5mtsgnrslu568h3hhrtm90wrusibtsn4.png"
+        alt="Fabrication work"
+        loading="lazy">
+    </div>
+
+    <!-- 03 -->
+    <div class="av-fabrication-item">
+      <img
+        src="https://5.imimg.com/data5/IA/KD/MY-14281057/steel-structure-500x500.jpg"
+        alt="Fabrication work"
+        loading="lazy">
+    </div>
+
+    <!-- 04 -->
+    <div class="av-fabrication-item">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb7WT8hpFCjmgbGDDMeH10qQhJbLbgSmhSB1UtKYKslPKFsYspFu_nyMMD&s=10"
+        alt="Fabrication work"
+        loading="lazy">
+    </div>
+
+    <!-- 05 -->
+    <div class="av-fabrication-item">
+      <img
+        src="https://www.e2cuttechnology.com/wp-content/uploads/2024/02/Fabrication-Works.jpg"
+        alt="Fabrication work"
+        loading="lazy">
+    </div>
+
+    <!-- 06 -->
+    <div class="av-fabrication-item">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzkJJhfwZUdqVtcu9THa8qj_z03y7cAe6zpIoVyhzJiXiv838FmSFKKFQ&s=10"
+        alt="Fabrication work"
+        loading="lazy">
+    </div>
+
+    <!-- 07 -->
+    <div class="av-fabrication-item">
+      <img
+        src="https://balajiconstructionpune.com/images/keyword/11.jpg"
+        alt="Metal fabrication work"
+        loading="lazy">
+    </div>
+
+    <!-- 08 -->
+    <div class="av-fabrication-item">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOlFHqnU-YTJo-LNTJxmAPKmlNS2RdSGoXmkzfV5rALolBZ27EeeFsoaez&s=10"
+        alt="Custom fabrication work"
+        loading="lazy">
+    </div>
+
+  </div>
+
+</section>
+
+
+<style>
+
+/* =========================================
+   ANNIRYAT VALLEY
+   FABRICATION GALLERY
+========================================= */
+
+.av-fabrication-gallery{
+  width:100%;
+  padding:75px 0;
+  background:#f8f6f1;
+  overflow:hidden;
+}
+
+.av-fabrication-grid{
+  width:calc(100% - 72px);
+  max-width:1240px;
+  margin:0 auto;
+
+  display:grid;
+  grid-template-columns:repeat(4, minmax(0, 1fr));
+  gap:14px;
+}
+
+
+/* =========================================
+   IMAGE BOX
+========================================= */
+
+.av-fabrication-item{
+  position:relative;
+
+  width:100%;
+  height:300px;
+
+  overflow:hidden;
+
+  background:#ddd;
+
+  display:block;
+}
+
+
+/* =========================================
+   IMAGE — FULL BOX FILL
+========================================= */
+
+.av-fabrication-item img{
+  position:absolute;
+
+  top:0;
+  left:0;
+
+  width:100% !important;
+  height:100% !important;
+
+  max-width:none !important;
+  min-width:100% !important;
+
+  max-height:none !important;
+  min-height:100% !important;
+
+  display:block !important;
+
+  object-fit:cover !important;
+  object-position:center center;
+
+  margin:0 !important;
+  padding:0 !important;
+  border:0 !important;
+
+  transform:scale(1);
+
+  transition:
+    transform .75s cubic-bezier(.2,.7,.2,1),
+    filter .5s ease;
+}
+
+
+/* =========================================
+   HOVER
+========================================= */
+
+.av-fabrication-item:hover img{
+  transform:scale(1.08);
+  filter:saturate(1.06) contrast(1.03);
+}
+
+
+/* =========================================
+   PREMIUM OVERLAY
+========================================= */
+
+.av-fabrication-item:before{
+  content:"";
+
+  position:absolute;
+  inset:0;
+
+  background:rgba(20,30,25,.08);
+
+  opacity:0;
+
+  z-index:2;
+
+  transition:.4s ease;
+
+  pointer-events:none;
+}
+
+.av-fabrication-item:hover:before{
+  opacity:1;
+}
+
+
+/* =========================================
+   PREMIUM INNER BORDER
+========================================= */
+
+.av-fabrication-item:after{
+  content:"";
+
+  position:absolute;
+
+  inset:12px;
+
+  border:1px solid rgba(255,255,255,.55);
+
+  opacity:0;
+
+  transform:scale(.96);
+
+  z-index:3;
+
+  transition:
+    opacity .45s ease,
+    transform .45s ease;
+
+  pointer-events:none;
+}
+
+.av-fabrication-item:hover:after{
+  opacity:1;
+  transform:scale(1);
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media(max-width:900px){
+
+  .av-fabrication-grid{
+    grid-template-columns:repeat(2, minmax(0, 1fr));
+    gap:12px;
+  }
+
+  .av-fabrication-item{
+    height:320px;
+  }
+
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media(max-width:600px){
+
+  .av-fabrication-gallery{
+    padding:55px 0;
+  }
+
+  .av-fabrication-grid{
+    width:calc(100% - 30px);
+
+    grid-template-columns:repeat(2, minmax(0, 1fr));
+
+    gap:9px;
+  }
+
+  .av-fabrication-item{
+    height:210px;
+  }
+
+}
+
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media(max-width:380px){
+
+  .av-fabrication-grid{
+    width:calc(100% - 24px);
+    gap:7px;
+  }
+
+  .av-fabrication-item{
+    height:180px;
+  }
+
+}
+
+</style>
+    <!-- =====================================================
+         CONTACT
+    ====================================================== -->
+
+    <section class="fabrication-contact">
+
+        <div class="site-wrap fabrication-contact-inner">
+
+
+            <div class="fabrication-contact-intro">
+
+                <div class="eyebrow">
+
+                    <span></span>
+
+                    LET’S PLAN YOUR NEXT EVENT
+
+                </div>
+
+
+                <h2>
+
+                    Ready to stand out
+                    <br>
+
+                    <em>
+                        at your next event?
+                    </em>
+
+                </h2>
+
+
+                <p>
+
+                    Get in touch with the fabrication team to discuss
+                    your booth, stage or event setup.
+
+                </p>
+
+
+                <a
+                    class="button button-lime"
+                    href="mailto:anniryatvalleyfabrication@gmail.com">
+
+                    Contact the fabrication team
+
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                         width="17"
+                         height="17"
+                         viewBox="0 0 24 24"
+                         fill="none"
+                         stroke="currentColor"
+                         stroke-width="2"
+                         stroke-linecap="round"
+                         stroke-linejoin="round">
+
+                        <path d="M5 12h14"></path>
+                        <path d="m12 5 7 7-7 7"></path>
+
+                    </svg>
+
+                </a>
+
+            </div>
+
+
+            <div class="fabrication-contact-details">
+
+
+                <div>
+
+                    <span>
+                        CALL
+                    </span>
+
+                    <a href="tel:+917617518860">
+                        +91 76175 18860
+                    </a>
+
+                    <a href="tel:+919456000914">
+                        +91 94560 00914
+                    </a>
+
+                </div>
+
+
+                <div>
+
+                    <span>
+                        EMAIL
+                    </span>
+
+                    <a href="mailto:anniryatvalleyfabrication@gmail.com">
+                        anniryatvalleyfabrication@gmail.com
+                    </a>
+
+                </div>
+
+
+                <div>
+
+                    <span>
+                        ADDRESS
+                    </span>
+
+                    <p>
+
+                        Pahadwa Colony, Gali No. 6, Chawla,
+                        <br>
+
+                        near Yashobhoomi, Delhi – 110074
+
+                    </p>
+
+                </div>
+
+
+                <div>
+
+                    <span>
+                        WEBSITE
+                    </span>
+
+                    <a
+                        href="https://www.anniryatvalleyfabrication.com"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        anniryatvalleyfabrication.com
+
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                             width="14"
+                             height="14"
+                             viewBox="0 0 24 24"
+                             fill="none"
+                             stroke="currentColor"
+                             stroke-width="2"
+                             stroke-linecap="round"
+                             stroke-linejoin="round">
+
+                            <path d="M7 7h10v10"></path>
+                            <path d="M7 17 17 7"></path>
+
+                        </svg>
+
+                    </a>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+</main>
+
+
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+
+<footer class="footer">
+
+    <div class="site-wrap">
+
+        <div class="footer-top">
+
+
+            <div>
+
+                <a
+                    href="/"
+                    class="brand footer-brand">
+
+                    <img
+                        alt="Anniryat Valley emblem"
+                        src="/assets/WhatsApp_Image_2026-10-04_at_10.51.58_AM_1791262753099-CenhDzXt.jpeg">
+
+                    <span>
+
+                        <b>
+                            ANNIRYAT VALLEY
+                        </b>
+
+                        <small>
+                            PRIVATE LIMITED
+                        </small>
+
+                    </span>
+
+                </a>
+
+
+                <p>
+
+                    A thoughtful connection between India’s agricultural
+                    products and buyers around the world.
+
+                </p>
+
+            </div>
+
+
+            <div class="footer-nav">
+
+                <b>
+                    Explore
+                </b>
+
+                <a href="/about">
+                    Our company
+                </a>
+
+                <a href="/products">
+                    Product range
+                </a>
+
+                <a href="/export">
+                    Export &amp; supply
+                </a>
+
+                <a href="/fabrication">
+                    Fabrication &amp; events
+                </a>
+
+                <a href="/contact">
+                    Contact
+                </a>
+
+            </div>
+
+
+            <div class="footer-contact">
+
+                <b>
+                    Start a conversation
+                </b>
+
+                <a href="https://wa.me/918881805052">
+                    WhatsApp · +91 88818 05052
+                </a>
+
+                <a href="mailto:anniryatvalley@gmail.com">
+                    anniryatvalley@gmail.com
+                </a>
+
+                <span>
+                    CEO · Shivbandhu Sagar
+                </span>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <span>
+                © 2026 Anniryat Valley Private Limited
+            </span>
+
+            <span>
+                Agro Department · India
+            </span>
+
+            <a href="#top">
+                Back to top ↑
+            </a>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<script>
+(function(){
+
+    const root =
+        document.querySelector('#anniryat-fabrication-page');
+
+    if(!root) return;
+
+    const menu =
+        root.querySelector('.menu-toggle');
+
+    const nav =
+        root.querySelector('.navlinks');
+
+
+    if(menu && nav){
+
+        menu.addEventListener('click',function(){
+
+            const isOpen =
+                nav.classList.toggle('is-open');
+
+            menu.setAttribute(
+                'aria-expanded',
+                isOpen ? 'true' : 'false'
+            );
+
+        });
+
+
+        nav.querySelectorAll('a').forEach(function(link){
+
+            link.addEventListener('click',function(){
+
+                nav.classList.remove('is-open');
+
+                menu.setAttribute(
+                    'aria-expanded',
+                    'false'
+                );
+
+            });
+
+        });
+
+    }
+
+
+    /* SERVICE CARD STAGGER */
+
+    const services =
+        root.querySelectorAll('.fabrication-service');
+
+    services.forEach(function(card,index){
+
+        card.style.animationDelay =
+            (index * .06) + 's';
+
+    });
+
+
+})();
+</script>
+
+</div>
